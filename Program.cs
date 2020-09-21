@@ -275,13 +275,13 @@ namespace Lab2
 			// TUPLES
 
 			(int myAge, string myName, char, string, ulong myTupNum) tup = ( 18, "Danil", 'V', "student", 9876543210 );
-			Console.WriteLine("Tuple: " + tup.Item1 + ", " + tup.Item2 + ", " + tup.Item3 + ", " + tup.Item4 + ", " + tup.Item5);
+			Console.WriteLine("Tuple: " + tup);
 			Console.WriteLine("Tuple (1, 3, 4): " + tup.Item1 + ", " + tup.Item3 + ", " + tup.Item4);
 			char myLastName = tup.Item3;
 			string myProf = tup.Item4;
 
 			(int, string, char, string, ulong) tup2 = (1337, "Mihail", 'Z', "Mafioznik", 88005553535);
-			Console.WriteLine("Tuple 2: " + tup2.Item1 + ", " + tup2.Item2 + ", " + tup2.Item3 + ", " + tup2.Item4 + ", " + tup2.Item5);
+			Console.WriteLine("Tuple 2: " + tup2);
 			Console.WriteLine("Comparison of 2 tuples: " +
 				((tup.Item1 > tup2.Item1) ? "Item from first tuple is bigger" : "Item from second tuple is bigger") + ", " +
 				(String.Compare(tup.Item2, tup2.Item2)) + ", " +
